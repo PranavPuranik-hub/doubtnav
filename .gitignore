@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+dist/
+.env
+data/clips/*
+!data/clips/sample_*.mp4
+*.pt
+*.onnx
+*.pth
