@@ -132,7 +132,7 @@ def reset_simulator(req: ResetSimRequest) -> Dict[str, Any]:
 @app.get("/benchmark")
 def get_benchmark() -> Dict[str, Any]:
     """Return saved simulator benchmark results JSON."""
-    benchmark_path = os.path.abspath("data/benchmark_results.json")
+    benchmark_path = os.path.abspath("backend/results.json")
     if os.path.isfile(benchmark_path):
         try:
             with open(benchmark_path, "r", encoding="utf-8") as f:

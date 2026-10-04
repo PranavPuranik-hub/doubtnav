@@ -1930,28 +1930,28 @@
       "dead_reckoning_pct": 52.3
     },
     {
-      "clip": "vidssave.com RC Car POV Camera Test _ Offroad Adventure \ud83d\ude99\ud83d\udd25 #pov #monstertruck #shorts 720P.mp4",
+      "clip": "sample_rc_pov.mp4",
       "degradation": "none",
       "drift_m": null,
       "mean_score": 0.844004092230337,
       "dead_reckoning_pct": 23.333333333333332
     },
     {
-      "clip": "vidssave.com RC Car POV Camera Test _ Offroad Adventure \ud83d\ude99\ud83d\udd25 #pov #monstertruck #shorts 720P.mp4",
+      "clip": "sample_rc_pov.mp4",
       "degradation": "night",
       "drift_m": 1.642,
       "mean_score": 0.715,
       "dead_reckoning_pct": 65.7
     },
     {
-      "clip": "vidssave.com RC Car POV Camera Test _ Offroad Adventure \ud83d\ude99\ud83d\udd25 #pov #monstertruck #shorts 720P.mp4",
+      "clip": "sample_rc_pov.mp4",
       "degradation": "fog",
       "drift_m": 0.385,
       "mean_score": 0.781,
       "dead_reckoning_pct": 43.3
     },
     {
-      "clip": "vidssave.com RC Car POV Camera Test _ Offroad Adventure \ud83d\ude99\ud83d\udd25 #pov #monstertruck #shorts 720P.mp4",
+      "clip": "sample_rc_pov.mp4",
       "degradation": "glare",
       "drift_m": 1.366,
       "mean_score": 0.819,
