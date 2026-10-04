@@ -1,0 +1,1971 @@
+{
+  "meta": {
+    "n_seeds": 20,
+    "max_steps": 3000,
+    "scenarios": [
+      "clear",
+      "night",
+      "fog",
+      "sudden_obstacle"
+    ],
+    "generated_utc": "2026-10-04T12:23:12Z"
+  },
+  "sim": {
+    "clear": {
+      "baseline": {
+        "n": 20,
+        "success_rate_pct": 100.0,
+        "collision_count": 0,
+        "stuck_count": 0,
+        "stuck_recoveries": 0,
+        "safe_count": 0,
+        "avg_steps": 625.0,
+        "avg_path_length_m": 72.63,
+        "avg_progress_pct": 97.9,
+        "avg_dist_to_goal_m": 1.46
+      },
+      "doubtnav": {
+        "n": 20,
+        "success_rate_pct": 90.0,
+        "collision_count": 0,
+        "stuck_count": 0,
+        "stuck_recoveries": 0,
+        "safe_count": 2,
+        "avg_steps": 849.8,
+        "avg_path_length_m": 78.75,
+        "avg_progress_pct": 94.2,
+        "avg_dist_to_goal_m": 4.1
+      },
+      "per_seed": {
+        "baseline": [
+          {
+            "seed": 0,
+            "success": true,
+            "collision": false,
+            "steps": 634,
+            "dist_to_goal": 1.4398527651657893,
+            "progress": 0.9796372116367446,
+            "path_length_m": 75.26880000000013,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 1,
+            "success": true,
+            "collision": false,
+            "steps": 601,
+            "dist_to_goal": 1.4936387508591376,
+            "progress": 0.9788765556376872,
+            "path_length_m": 71.62200000000009,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 2,
+            "success": true,
+            "collision": false,
+            "steps": 618,
+            "dist_to_goal": 1.4616885121319672,
+            "progress": 0.9793284045802295,
+            "path_length_m": 73.45680000000006,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 3,
+            "success": true,
+            "collision": false,
+            "steps": 642,
+            "dist_to_goal": 1.4269368075134157,
+            "progress": 0.979819872613302,
+            "path_length_m": 76.54200000000006,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 4,
+            "success": true,
+            "collision": false,
+            "steps": 593,
+            "dist_to_goal": 1.483589919771706,
+            "progress": 0.9790186689326587,
+            "path_length_m": 70.68360000000007,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 5,
+            "success": true,
+            "collision": false,
+            "steps": 588,
+            "dist_to_goal": 1.4969025539024967,
+            "progress": 0.9788303980497455,
+            "path_length_m": 70.11600000000026,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 6,
+            "success": true,
+            "collision": false,
+            "steps": 583,
+            "dist_to_goal": 1.4939686566319124,
+            "progress": 0.9788718900207621,
+            "path_length_m": 69.61319999999992,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 7,
+            "success": true,
+            "collision": false,
+            "steps": 592,
+            "dist_to_goal": 1.424787630330459,
+            "progress": 0.979850266859985,
+            "path_length_m": 70.60679999999995,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 8,
+            "success": true,
+            "collision": false,
+            "steps": 866,
+            "dist_to_goal": 1.4424631205098222,
+            "progress": 0.9796002952834136,
+            "path_length_m": 83.60400000000017,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 9,
+            "success": true,
+            "collision": false,
+            "steps": 590,
+            "dist_to_goal": 1.4811142390021144,
+            "progress": 0.9790536806816276,
+            "path_length_m": 70.07519999999987,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 10,
+            "success": true,
+            "collision": false,
+            "steps": 586,
+            "dist_to_goal": 1.451071936547739,
+            "progress": 0.9794785470718748,
+            "path_length_m": 69.73560000000016,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 11,
+            "success": true,
+            "collision": false,
+            "steps": 614,
+            "dist_to_goal": 1.4649433671820198,
+            "progress": 0.9792823735372364,
+            "path_length_m": 73.07400000000025,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 12,
+            "success": true,
+            "collision": false,
+            "steps": 596,
+            "dist_to_goal": 1.433019413414857,
+            "progress": 0.9797338507507445,
+            "path_length_m": 70.50359999999996,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 13,
+            "success": true,
+            "collision": false,
+            "steps": 588,
+            "dist_to_goal": 1.4410846403186683,
+            "progress": 0.979619790124188,
+            "path_length_m": 69.97559999999969,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 14,
+            "success": true,
+            "collision": false,
+            "steps": 585,
+            "dist_to_goal": 1.4361320679518315,
+            "progress": 0.9796898307459789,
+            "path_length_m": 69.61559999999993,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 15,
+            "success": true,
+            "collision": false,
+            "steps": 603,
+            "dist_to_goal": 1.44968179038838,
+            "progress": 0.9794982068959358,
+            "path_length_m": 71.89440000000047,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 16,
+            "success": true,
+            "collision": false,
+            "steps": 619,
+            "dist_to_goal": 1.4835219058454157,
+            "progress": 0.979019630804053,
+            "path_length_m": 73.67399999999978,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 17,
+            "success": true,
+            "collision": false,
+            "steps": 582,
+            "dist_to_goal": 1.4803304346688975,
+            "progress": 0.9790647654551139,
+            "path_length_m": 69.42840000000008,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 18,
+            "success": true,
+            "collision": false,
+            "steps": 780,
+            "dist_to_goal": 1.4475189515657194,
+            "progress": 0.9795287943492332,
+            "path_length_m": 79.77480000000045,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 19,
+            "success": true,
+            "collision": false,
+            "steps": 640,
+            "dist_to_goal": 1.4425992717624305,
+            "progress": 0.9795983697954684,
+            "path_length_m": 73.40759999999985,
+            "stuck": false,
+            "stuck_recoveries": 0
+          }
+        ],
+        "doubtnav": [
+          {
+            "seed": 0,
+            "success": true,
+            "collision": false,
+            "steps": 630,
+            "dist_to_goal": 1.4310041189510534,
+            "progress": 0.9797623515916978,
+            "path_length_m": 74.85359999999993,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 1,
+            "success": true,
+            "collision": false,
+            "steps": 601,
+            "dist_to_goal": 1.467380913063547,
+            "progress": 0.9792479011021985,
+            "path_length_m": 71.61120000000007,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 2,
+            "success": true,
+            "collision": false,
+            "steps": 617,
+            "dist_to_goal": 1.429982862173244,
+            "progress": 0.9797767944820641,
+            "path_length_m": 73.38000000000024,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 3,
+            "success": true,
+            "collision": false,
+            "steps": 640,
+            "dist_to_goal": 1.445002480793308,
+            "progress": 0.9795643829614863,
+            "path_length_m": 76.24800000000019,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 4,
+            "success": true,
+            "collision": false,
+            "steps": 593,
+            "dist_to_goal": 1.4354937001472372,
+            "progress": 0.979698858716628,
+            "path_length_m": 70.67280000000004,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 5,
+            "success": true,
+            "collision": false,
+            "steps": 590,
+            "dist_to_goal": 1.4645477066632813,
+            "progress": 0.9792879690756148,
+            "path_length_m": 70.22640000000021,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 6,
+            "success": true,
+            "collision": false,
+            "steps": 584,
+            "dist_to_goal": 1.4360262523010612,
+            "progress": 0.9796913272196145,
+            "path_length_m": 69.63599999999977,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 7,
+            "success": true,
+            "collision": false,
+            "steps": 592,
+            "dist_to_goal": 1.481743922352872,
+            "progress": 0.9790447755288804,
+            "path_length_m": 70.53119999999991,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 8,
+            "success": true,
+            "collision": false,
+            "steps": 806,
+            "dist_to_goal": 1.463949743423746,
+            "progress": 0.979296425633945,
+            "path_length_m": 78.20640000000054,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 9,
+            "success": true,
+            "collision": false,
+            "steps": 585,
+            "dist_to_goal": 1.4813378796790773,
+            "progress": 0.9790505178945117,
+            "path_length_m": 69.56159999999964,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 10,
+            "success": true,
+            "collision": false,
+            "steps": 587,
+            "dist_to_goal": 1.4488012120193448,
+            "progress": 0.9795106602740865,
+            "path_length_m": 69.8232000000001,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 11,
+            "success": true,
+            "collision": false,
+            "steps": 612,
+            "dist_to_goal": 1.4835139777646178,
+            "progress": 0.9790197429251221,
+            "path_length_m": 72.8448000000003,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 12,
+            "success": true,
+            "collision": false,
+            "steps": 592,
+            "dist_to_goal": 1.4837148564210227,
+            "progress": 0.9790169020446751,
+            "path_length_m": 70.37999999999973,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 13,
+            "success": true,
+            "collision": false,
+            "steps": 585,
+            "dist_to_goal": 1.4731171351350043,
+            "progress": 0.9791667778937208,
+            "path_length_m": 69.72359999999978,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 14,
+            "success": true,
+            "collision": false,
+            "steps": 584,
+            "dist_to_goal": 1.4990547511106234,
+            "progress": 0.9787999610930473,
+            "path_length_m": 69.5711999999996,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 15,
+            "success": true,
+            "collision": false,
+            "steps": 602,
+            "dist_to_goal": 1.4602355059222858,
+            "progress": 0.9793489533881731,
+            "path_length_m": 71.66639999999994,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 16,
+            "success": true,
+            "collision": false,
+            "steps": 613,
+            "dist_to_goal": 1.4873927936347002,
+            "progress": 0.9789648876589634,
+            "path_length_m": 72.92159999999977,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 17,
+            "success": true,
+            "collision": false,
+            "steps": 583,
+            "dist_to_goal": 1.4788755807286884,
+            "progress": 0.9790853403941636,
+            "path_length_m": 69.4187999999996,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 18,
+            "success": false,
+            "collision": false,
+            "steps": 3000,
+            "dist_to_goal": 27.55224521086955,
+            "progress": 0.6103486747154638,
+            "path_length_m": 172.96572000000177,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 19,
+            "success": false,
+            "collision": false,
+            "steps": 3000,
+            "dist_to_goal": 28.132127834783596,
+            "progress": 0.6021478173556272,
+            "path_length_m": 110.76240000000098,
+            "stuck": false,
+            "stuck_recoveries": 0
+          }
+        ]
+      }
+    },
+    "night": {
+      "baseline": {
+        "n": 20,
+        "success_rate_pct": 100.0,
+        "collision_count": 0,
+        "stuck_count": 0,
+        "stuck_recoveries": 0,
+        "safe_count": 0,
+        "avg_steps": 693.9,
+        "avg_path_length_m": 74.67,
+        "avg_progress_pct": 97.9,
+        "avg_dist_to_goal_m": 1.46
+      },
+      "doubtnav": {
+        "n": 20,
+        "success_rate_pct": 65.0,
+        "collision_count": 1,
+        "stuck_count": 0,
+        "stuck_recoveries": 0,
+        "safe_count": 6,
+        "avg_steps": 2686.3,
+        "avg_path_length_m": 67.41,
+        "avg_progress_pct": 85.7,
+        "avg_dist_to_goal_m": 10.1
+      },
+      "per_seed": {
+        "baseline": [
+          {
+            "seed": 0,
+            "success": true,
+            "collision": false,
+            "steps": 656,
+            "dist_to_goal": 1.4572124690762298,
+            "progress": 0.9793917059952449,
+            "path_length_m": 75.2304000000002,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 1,
+            "success": true,
+            "collision": false,
+            "steps": 623,
+            "dist_to_goal": 1.4281673970765272,
+            "progress": 0.9798024692819046,
+            "path_length_m": 71.60519999999993,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 2,
+            "success": true,
+            "collision": false,
+            "steps": 640,
+            "dist_to_goal": 1.4771357355455335,
+            "progress": 0.9791099457566746,
+            "path_length_m": 73.40760000000039,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 3,
+            "success": true,
+            "collision": false,
+            "steps": 667,
+            "dist_to_goal": 1.4206017150107808,
+            "progress": 0.9799094652098602,
+            "path_length_m": 76.61520000000023,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 4,
+            "success": true,
+            "collision": false,
+            "steps": 611,
+            "dist_to_goal": 1.4674718129763251,
+            "progress": 0.9792466155709755,
+            "path_length_m": 70.70519999999998,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 5,
+            "success": true,
+            "collision": false,
+            "steps": 607,
+            "dist_to_goal": 1.4636134467270459,
+            "progress": 0.9793011816330498,
+            "path_length_m": 70.41960000000012,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 6,
+            "success": true,
+            "collision": false,
+            "steps": 668,
+            "dist_to_goal": 1.4635078415058562,
+            "progress": 0.9793026751307332,
+            "path_length_m": 73.52759999999998,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 7,
+            "success": true,
+            "collision": false,
+            "steps": 620,
+            "dist_to_goal": 1.4515714354135807,
+            "progress": 0.9794714830234256,
+            "path_length_m": 70.85640000000005,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 8,
+            "success": true,
+            "collision": false,
+            "steps": 1856,
+            "dist_to_goal": 1.4981752749853663,
+            "progress": 0.9788123988829676,
+            "path_length_m": 125.95080000000156,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 9,
+            "success": true,
+            "collision": false,
+            "steps": 607,
+            "dist_to_goal": 1.4770721468350512,
+            "progress": 0.9791108450454666,
+            "path_length_m": 69.85799999999989,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 10,
+            "success": true,
+            "collision": false,
+            "steps": 605,
+            "dist_to_goal": 1.4102460584369454,
+            "progress": 0.9800559177140865,
+            "path_length_m": 69.72599999999991,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 11,
+            "success": true,
+            "collision": false,
+            "steps": 635,
+            "dist_to_goal": 1.4804885940474966,
+            "progress": 0.9790625287222812,
+            "path_length_m": 73.0992,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 12,
+            "success": true,
+            "collision": false,
+            "steps": 619,
+            "dist_to_goal": 1.498422161197553,
+            "progress": 0.9788089073511872,
+            "path_length_m": 70.53119999999979,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 13,
+            "success": true,
+            "collision": false,
+            "steps": 600,
+            "dist_to_goal": 1.4556183003750203,
+            "progress": 0.9794142511614338,
+            "path_length_m": 69.79559999999987,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 14,
+            "success": true,
+            "collision": false,
+            "steps": 601,
+            "dist_to_goal": 1.4504805345368155,
+            "progress": 0.9794869108395302,
+            "path_length_m": 69.66719999999987,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 15,
+            "success": true,
+            "collision": false,
+            "steps": 631,
+            "dist_to_goal": 1.4376586521693573,
+            "progress": 0.9796682413778905,
+            "path_length_m": 71.8308,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 16,
+            "success": true,
+            "collision": false,
+            "steps": 646,
+            "dist_to_goal": 1.4674876520255253,
+            "progress": 0.9792463915708454,
+            "path_length_m": 73.69559999999996,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 17,
+            "success": true,
+            "collision": false,
+            "steps": 605,
+            "dist_to_goal": 1.424719937413335,
+            "progress": 0.9798512241915807,
+            "path_length_m": 69.57479999999984,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 18,
+            "success": true,
+            "collision": false,
+            "steps": 739,
+            "dist_to_goal": 1.4986048905545055,
+            "progress": 0.978806323143056,
+            "path_length_m": 75.27600000000012,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 19,
+            "success": true,
+            "collision": false,
+            "steps": 641,
+            "dist_to_goal": 1.457859114083325,
+            "progress": 0.979382560966153,
+            "path_length_m": 72.05879999999999,
+            "stuck": false,
+            "stuck_recoveries": 0
+          }
+        ],
+        "doubtnav": [
+          {
+            "seed": 0,
+            "success": true,
+            "collision": false,
+            "steps": 2923,
+            "dist_to_goal": 1.4640698834809547,
+            "progress": 0.9792947265806682,
+            "path_length_m": 76.27392000000033,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 1,
+            "success": true,
+            "collision": false,
+            "steps": 2661,
+            "dist_to_goal": 1.4979794538763451,
+            "progress": 0.9788151682382076,
+            "path_length_m": 72.05796000000059,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 2,
+            "success": true,
+            "collision": false,
+            "steps": 2733,
+            "dist_to_goal": 1.4880411744168172,
+            "progress": 0.9789557180820702,
+            "path_length_m": 73.57536000000016,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 3,
+            "success": true,
+            "collision": false,
+            "steps": 2865,
+            "dist_to_goal": 1.470588614983898,
+            "progress": 0.9792025369115557,
+            "path_length_m": 75.89016000000036,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 4,
+            "success": true,
+            "collision": false,
+            "steps": 2540,
+            "dist_to_goal": 1.4947293360011351,
+            "progress": 0.9788611322867892,
+            "path_length_m": 70.68960000000052,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 5,
+            "success": true,
+            "collision": false,
+            "steps": 2553,
+            "dist_to_goal": 1.4867957175757867,
+            "progress": 0.9789733316705447,
+            "path_length_m": 70.09092000000005,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 6,
+            "success": true,
+            "collision": false,
+            "steps": 2475,
+            "dist_to_goal": 1.4994817193222885,
+            "progress": 0.9787939227927833,
+            "path_length_m": 69.69780000000083,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 7,
+            "success": true,
+            "collision": false,
+            "steps": 2545,
+            "dist_to_goal": 1.4723879150193218,
+            "progress": 0.9791770907223968,
+            "path_length_m": 70.75440000000044,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 8,
+            "success": false,
+            "collision": true,
+            "steps": 1505,
+            "dist_to_goal": 42.925999675922064,
+            "progress": 0.39292886895881673,
+            "path_length_m": 29.37636000000004,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 9,
+            "success": false,
+            "collision": false,
+            "steps": 3000,
+            "dist_to_goal": 18.539195670646563,
+            "progress": 0.737813666091832,
+            "path_length_m": 66.35124000000026,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 10,
+            "success": true,
+            "collision": false,
+            "steps": 2500,
+            "dist_to_goal": 1.4974018754827105,
+            "progress": 0.9788233365085177,
+            "path_length_m": 69.75108000000043,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 11,
+            "success": true,
+            "collision": false,
+            "steps": 2879,
+            "dist_to_goal": 1.4936452532538627,
+            "progress": 0.9788764636790572,
+            "path_length_m": 75.04596000000049,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 12,
+            "success": false,
+            "collision": false,
+            "steps": 3000,
+            "dist_to_goal": 2.6986897947569872,
+            "progress": 0.9618343969062794,
+            "path_length_m": 76.1029200000006,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 13,
+            "success": true,
+            "collision": false,
+            "steps": 2551,
+            "dist_to_goal": 1.493999967499731,
+            "progress": 0.9788714472139763,
+            "path_length_m": 69.65316000000023,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 14,
+            "success": true,
+            "collision": false,
+            "steps": 2494,
+            "dist_to_goal": 1.4923505898474585,
+            "progress": 0.9788947731601264,
+            "path_length_m": 69.69636000000068,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 15,
+            "success": false,
+            "collision": false,
+            "steps": 3000,
+            "dist_to_goal": 21.733988537073202,
+            "progress": 0.6926320387912148,
+            "path_length_m": 64.64016000000055,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 16,
+            "success": false,
+            "collision": false,
+            "steps": 3000,
+            "dist_to_goal": 38.127892092080884,
+            "progress": 0.46078500789024346,
+            "path_length_m": 60.2215200000007,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 17,
+            "success": true,
+            "collision": false,
+            "steps": 2502,
+            "dist_to_goal": 1.4696457753707992,
+            "progress": 0.9792158708051082,
+            "path_length_m": 69.50808000000043,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 18,
+            "success": false,
+            "collision": false,
+            "steps": 3000,
+            "dist_to_goal": 27.517796976670212,
+            "progress": 0.6108358509875518,
+            "path_length_m": 61.308720000000015,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 19,
+            "success": false,
+            "collision": false,
+            "steps": 3000,
+            "dist_to_goal": 31.21339356734782,
+            "progress": 0.558571721576187,
+            "path_length_m": 57.54384000000017,
+            "stuck": false,
+            "stuck_recoveries": 0
+          }
+        ]
+      }
+    },
+    "fog": {
+      "baseline": {
+        "n": 20,
+        "success_rate_pct": 95.0,
+        "collision_count": 1,
+        "stuck_count": 0,
+        "stuck_recoveries": 0,
+        "safe_count": 0,
+        "avg_steps": 608.6,
+        "avg_path_length_m": 70.15,
+        "avg_progress_pct": 94.8,
+        "avg_dist_to_goal_m": 3.65
+      },
+      "doubtnav": {
+        "n": 20,
+        "success_rate_pct": 30.0,
+        "collision_count": 8,
+        "stuck_count": 0,
+        "stuck_recoveries": 0,
+        "safe_count": 6,
+        "avg_steps": 2247.3,
+        "avg_path_length_m": 54.21,
+        "avg_progress_pct": 64.9,
+        "avg_dist_to_goal_m": 24.8
+      },
+      "per_seed": {
+        "baseline": [
+          {
+            "seed": 0,
+            "success": true,
+            "collision": false,
+            "steps": 638,
+            "dist_to_goal": 1.4366034755763302,
+            "progress": 0.9796831639714845,
+            "path_length_m": 75.15480000000012,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 1,
+            "success": true,
+            "collision": false,
+            "steps": 607,
+            "dist_to_goal": 1.4601465750417235,
+            "progress": 0.9793502110728083,
+            "path_length_m": 71.71560000000004,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 2,
+            "success": true,
+            "collision": false,
+            "steps": 622,
+            "dist_to_goal": 1.4494582472160946,
+            "progress": 0.979501368304114,
+            "path_length_m": 73.51560000000025,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 3,
+            "success": true,
+            "collision": false,
+            "steps": 647,
+            "dist_to_goal": 1.4960518578754438,
+            "progress": 0.9788424288237103,
+            "path_length_m": 76.51560000000026,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 4,
+            "success": true,
+            "collision": false,
+            "steps": 596,
+            "dist_to_goal": 1.4975435995835733,
+            "progress": 0.9788213322078408,
+            "path_length_m": 70.58999999999993,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 5,
+            "success": true,
+            "collision": false,
+            "steps": 591,
+            "dist_to_goal": 1.4746085650941556,
+            "progress": 0.9791456856866899,
+            "path_length_m": 70.1952000000001,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 6,
+            "success": true,
+            "collision": false,
+            "steps": 586,
+            "dist_to_goal": 1.4511487977275233,
+            "progress": 0.9794774600802217,
+            "path_length_m": 69.64919999999977,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 7,
+            "success": true,
+            "collision": false,
+            "steps": 595,
+            "dist_to_goal": 1.4496143455957737,
+            "progress": 0.9794991607184872,
+            "path_length_m": 70.46999999999977,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 8,
+            "success": true,
+            "collision": false,
+            "steps": 946,
+            "dist_to_goal": 1.4926556170808298,
+            "progress": 0.9788904593822538,
+            "path_length_m": 85.98960000000075,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 9,
+            "success": true,
+            "collision": false,
+            "steps": 591,
+            "dist_to_goal": 1.4874988054775207,
+            "progress": 0.9789633884107266,
+            "path_length_m": 69.90359999999974,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 10,
+            "success": true,
+            "collision": false,
+            "steps": 613,
+            "dist_to_goal": 1.4832742041428308,
+            "progress": 0.9790231338687196,
+            "path_length_m": 71.08560000000018,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 11,
+            "success": true,
+            "collision": false,
+            "steps": 622,
+            "dist_to_goal": 1.439796374866533,
+            "progress": 0.9796380091236525,
+            "path_length_m": 73.20240000000005,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 12,
+            "success": true,
+            "collision": false,
+            "steps": 599,
+            "dist_to_goal": 1.4551711292387464,
+            "progress": 0.9794205751769376,
+            "path_length_m": 70.43159999999993,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 13,
+            "success": true,
+            "collision": false,
+            "steps": 590,
+            "dist_to_goal": 1.4720422007599252,
+            "progress": 0.9791819799072278,
+            "path_length_m": 69.82679999999995,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 14,
+            "success": true,
+            "collision": false,
+            "steps": 589,
+            "dist_to_goal": 1.4174173752615264,
+            "progress": 0.9799544990063425,
+            "path_length_m": 69.6311999999997,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 15,
+            "success": true,
+            "collision": false,
+            "steps": 608,
+            "dist_to_goal": 1.4250093945778988,
+            "progress": 0.9798471306098444,
+            "path_length_m": 71.86799999999997,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 16,
+            "success": true,
+            "collision": false,
+            "steps": 625,
+            "dist_to_goal": 1.4516621403922918,
+            "progress": 0.979470200249013,
+            "path_length_m": 73.5731999999998,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 17,
+            "success": true,
+            "collision": false,
+            "steps": 587,
+            "dist_to_goal": 1.4234598317221594,
+            "progress": 0.9798690449480674,
+            "path_length_m": 69.45599999999979,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 18,
+            "success": false,
+            "collision": true,
+            "steps": 256,
+            "dist_to_goal": 45.34128703077238,
+            "progress": 0.35877122004281736,
+            "path_length_m": 25.41600000000003,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 19,
+            "success": true,
+            "collision": false,
+            "steps": 664,
+            "dist_to_goal": 1.4575342403124878,
+            "progress": 0.9793871554191418,
+            "path_length_m": 74.82959999999991,
+            "stuck": false,
+            "stuck_recoveries": 0
+          }
+        ],
+        "doubtnav": [
+          {
+            "seed": 0,
+            "success": false,
+            "collision": false,
+            "steps": 3000,
+            "dist_to_goal": 40.98384723456189,
+            "progress": 0.42039531559097865,
+            "path_length_m": 59.08068000000042,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 1,
+            "success": true,
+            "collision": false,
+            "steps": 2501,
+            "dist_to_goal": 1.4860590092655683,
+            "progress": 0.978983750399299,
+            "path_length_m": 72.15264000000077,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 2,
+            "success": false,
+            "collision": true,
+            "steps": 1674,
+            "dist_to_goal": 33.819796062957096,
+            "progress": 0.5217112704998289,
+            "path_length_m": 40.75631999999975,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 3,
+            "success": false,
+            "collision": true,
+            "steps": 1640,
+            "dist_to_goal": 37.13292435647219,
+            "progress": 0.4748561114909887,
+            "path_length_m": 39.7486800000001,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 4,
+            "success": true,
+            "collision": false,
+            "steps": 2392,
+            "dist_to_goal": 1.4990108139991272,
+            "progress": 0.978800582463596,
+            "path_length_m": 70.58052000000062,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 5,
+            "success": true,
+            "collision": false,
+            "steps": 2457,
+            "dist_to_goal": 1.4973598526268708,
+            "progress": 0.9788239308071437,
+            "path_length_m": 70.05600000000005,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 6,
+            "success": false,
+            "collision": false,
+            "steps": 3000,
+            "dist_to_goal": 29.76580196814769,
+            "progress": 0.5790439546295051,
+            "path_length_m": 60.8904000000001,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 7,
+            "success": false,
+            "collision": true,
+            "steps": 1938,
+            "dist_to_goal": 23.908827972214507,
+            "progress": 0.661874869576941,
+            "path_length_m": 48.00743999999986,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 8,
+            "success": false,
+            "collision": true,
+            "steps": 1796,
+            "dist_to_goal": 36.99395682459033,
+            "progress": 0.47682142802163296,
+            "path_length_m": 38.050200000000295,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 9,
+            "success": false,
+            "collision": false,
+            "steps": 3000,
+            "dist_to_goal": 20.475343485829164,
+            "progress": 0.7104321385118206,
+            "path_length_m": 63.30923999999982,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 10,
+            "success": true,
+            "collision": false,
+            "steps": 2332,
+            "dist_to_goal": 1.4902278904941049,
+            "progress": 0.9789247929501611,
+            "path_length_m": 69.63768000000039,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 11,
+            "success": true,
+            "collision": false,
+            "steps": 2728,
+            "dist_to_goal": 1.4985653342515541,
+            "progress": 0.978806882559022,
+            "path_length_m": 74.93508000000055,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 12,
+            "success": false,
+            "collision": false,
+            "steps": 3000,
+            "dist_to_goal": 41.018422474085,
+            "progress": 0.41990634317515196,
+            "path_length_m": 59.67828000000034,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 13,
+            "success": false,
+            "collision": true,
+            "steps": 1804,
+            "dist_to_goal": 23.62306084656117,
+            "progress": 0.6659162657819095,
+            "path_length_m": 47.4260400000001,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 14,
+            "success": true,
+            "collision": false,
+            "steps": 2365,
+            "dist_to_goal": 1.4700616190073583,
+            "progress": 0.9792099898316029,
+            "path_length_m": 69.63372000000032,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 15,
+            "success": false,
+            "collision": true,
+            "steps": 1650,
+            "dist_to_goal": 33.35764180812617,
+            "progress": 0.5282471813304176,
+            "path_length_m": 41.399639999999906,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 16,
+            "success": false,
+            "collision": false,
+            "steps": 3000,
+            "dist_to_goal": 38.354542106878554,
+            "progress": 0.4575796619024387,
+            "path_length_m": 60.40584000000064,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 17,
+            "success": false,
+            "collision": false,
+            "steps": 3000,
+            "dist_to_goal": 18.711207669596245,
+            "progress": 0.7353810257446436,
+            "path_length_m": 63.088559999999816,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 18,
+            "success": false,
+            "collision": true,
+            "steps": 1047,
+            "dist_to_goal": 45.36877252458775,
+            "progress": 0.3583825127338742,
+            "path_length_m": 25.46207999999956,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 19,
+            "success": false,
+            "collision": true,
+            "steps": 622,
+            "dist_to_goal": 63.4946840003049,
+            "progress": 0.10204095601322438,
+            "path_length_m": 9.99000000000005,
+            "stuck": false,
+            "stuck_recoveries": 0
+          }
+        ]
+      }
+    },
+    "sudden_obstacle": {
+      "baseline": {
+        "n": 20,
+        "success_rate_pct": 95.0,
+        "collision_count": 1,
+        "stuck_count": 0,
+        "stuck_recoveries": 0,
+        "safe_count": 0,
+        "avg_steps": 601.1,
+        "avg_path_length_m": 70.49,
+        "avg_progress_pct": 95.2,
+        "avg_dist_to_goal_m": 3.38
+      },
+      "doubtnav": {
+        "n": 20,
+        "success_rate_pct": 90.0,
+        "collision_count": 0,
+        "stuck_count": 0,
+        "stuck_recoveries": 0,
+        "safe_count": 2,
+        "avg_steps": 862.8,
+        "avg_path_length_m": 79.38,
+        "avg_progress_pct": 94.2,
+        "avg_dist_to_goal_m": 4.1
+      },
+      "per_seed": {
+        "baseline": [
+          {
+            "seed": 0,
+            "success": true,
+            "collision": false,
+            "steps": 625,
+            "dist_to_goal": 1.4694872269308055,
+            "progress": 0.9792181130401526,
+            "path_length_m": 74.25359999999996,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 1,
+            "success": true,
+            "collision": false,
+            "steps": 595,
+            "dist_to_goal": 1.437535511519663,
+            "progress": 0.9796699828663603,
+            "path_length_m": 70.85879999999997,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 2,
+            "success": true,
+            "collision": false,
+            "steps": 637,
+            "dist_to_goal": 1.4757972524773932,
+            "progress": 0.9791288749472862,
+            "path_length_m": 75.80160000000053,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 3,
+            "success": true,
+            "collision": false,
+            "steps": 637,
+            "dist_to_goal": 1.436378577881978,
+            "progress": 0.9796863445356813,
+            "path_length_m": 75.8232000000002,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 4,
+            "success": true,
+            "collision": false,
+            "steps": 593,
+            "dist_to_goal": 1.4732971153128884,
+            "progress": 0.9791642325652258,
+            "path_length_m": 70.67280000000015,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 5,
+            "success": true,
+            "collision": false,
+            "steps": 590,
+            "dist_to_goal": 1.4312495929456799,
+            "progress": 0.9797588800318812,
+            "path_length_m": 70.36679999999978,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 6,
+            "success": true,
+            "collision": false,
+            "steps": 586,
+            "dist_to_goal": 1.4771016005656898,
+            "progress": 0.9791104285028187,
+            "path_length_m": 70.0272,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 7,
+            "success": true,
+            "collision": false,
+            "steps": 598,
+            "dist_to_goal": 1.4597566833925946,
+            "progress": 0.9793557250262679,
+            "path_length_m": 71.25120000000007,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 8,
+            "success": false,
+            "collision": true,
+            "steps": 318,
+            "dist_to_goal": 39.86412118184637,
+            "progress": 0.4362307851527878,
+            "path_length_m": 32.402400000000064,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 9,
+            "success": true,
+            "collision": false,
+            "steps": 632,
+            "dist_to_goal": 1.433703875147682,
+            "progress": 0.9797241709072595,
+            "path_length_m": 73.04160000000009,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 10,
+            "success": true,
+            "collision": false,
+            "steps": 692,
+            "dist_to_goal": 1.4765350723742758,
+            "progress": 0.9791184404981718,
+            "path_length_m": 75.5544000000002,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 11,
+            "success": true,
+            "collision": false,
+            "steps": 610,
+            "dist_to_goal": 1.437007075356267,
+            "progress": 0.9796774561539207,
+            "path_length_m": 72.61560000000001,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 12,
+            "success": true,
+            "collision": false,
+            "steps": 593,
+            "dist_to_goal": 1.464550847749294,
+            "progress": 0.9792879246535243,
+            "path_length_m": 70.48920000000003,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 13,
+            "success": true,
+            "collision": false,
+            "steps": 602,
+            "dist_to_goal": 1.4370524055879748,
+            "progress": 0.9796768150814881,
+            "path_length_m": 71.59079999999986,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 14,
+            "success": true,
+            "collision": false,
+            "steps": 592,
+            "dist_to_goal": 1.4532206423179939,
+            "progress": 0.979448159492038,
+            "path_length_m": 70.45560000000033,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 15,
+            "success": true,
+            "collision": false,
+            "steps": 599,
+            "dist_to_goal": 1.428007371169663,
+            "progress": 0.9798047324116863,
+            "path_length_m": 71.2956000000001,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 16,
+            "success": true,
+            "collision": false,
+            "steps": 612,
+            "dist_to_goal": 1.4700502555478379,
+            "progress": 0.9792101505367298,
+            "path_length_m": 72.90959999999977,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 17,
+            "success": true,
+            "collision": false,
+            "steps": 588,
+            "dist_to_goal": 1.489352472115023,
+            "progress": 0.9789371733543343,
+            "path_length_m": 70.12680000000036,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 18,
+            "success": true,
+            "collision": false,
+            "steps": 684,
+            "dist_to_goal": 1.4498034877846888,
+            "progress": 0.9794964858183469,
+            "path_length_m": 76.84080000000024,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 19,
+            "success": true,
+            "collision": false,
+            "steps": 640,
+            "dist_to_goal": 1.4425992717624305,
+            "progress": 0.9795983697954684,
+            "path_length_m": 73.40759999999985,
+            "stuck": false,
+            "stuck_recoveries": 0
+          }
+        ],
+        "doubtnav": [
+          {
+            "seed": 0,
+            "success": true,
+            "collision": false,
+            "steps": 624,
+            "dist_to_goal": 1.4216019414167183,
+            "progress": 0.9798953197367173,
+            "path_length_m": 74.17680000000014,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 1,
+            "success": true,
+            "collision": false,
+            "steps": 595,
+            "dist_to_goal": 1.4760615468468024,
+            "progress": 0.9791251372246245,
+            "path_length_m": 70.84800000000001,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 2,
+            "success": true,
+            "collision": false,
+            "steps": 636,
+            "dist_to_goal": 1.486628473331171,
+            "progress": 0.9789756968840169,
+            "path_length_m": 75.6060000000004,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 3,
+            "success": true,
+            "collision": false,
+            "steps": 634,
+            "dist_to_goal": 1.498476533660226,
+            "progress": 0.9788081384010716,
+            "path_length_m": 75.4416,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 4,
+            "success": true,
+            "collision": false,
+            "steps": 593,
+            "dist_to_goal": 1.476672098814705,
+            "progress": 0.9791165026330829,
+            "path_length_m": 70.60800000000019,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 5,
+            "success": true,
+            "collision": false,
+            "steps": 593,
+            "dist_to_goal": 1.4332700094451378,
+            "progress": 0.9797303067537104,
+            "path_length_m": 70.47839999999995,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 6,
+            "success": true,
+            "collision": false,
+            "steps": 587,
+            "dist_to_goal": 1.4260160890098685,
+            "progress": 0.979832893664123,
+            "path_length_m": 70.01759999999994,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 7,
+            "success": true,
+            "collision": false,
+            "steps": 597,
+            "dist_to_goal": 1.44398844868202,
+            "progress": 0.9795787236786591,
+            "path_length_m": 71.22840000000016,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 8,
+            "success": true,
+            "collision": false,
+            "steps": 807,
+            "dist_to_goal": 1.4908653199224853,
+            "progress": 0.9789157782502831,
+            "path_length_m": 77.78280000000066,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 9,
+            "success": true,
+            "collision": false,
+            "steps": 603,
+            "dist_to_goal": 1.482417396177526,
+            "progress": 0.9790352510793732,
+            "path_length_m": 71.77559999999966,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 10,
+            "success": true,
+            "collision": false,
+            "steps": 653,
+            "dist_to_goal": 1.4433838512988337,
+            "progress": 0.9795872740588484,
+            "path_length_m": 71.48040000000005,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 11,
+            "success": true,
+            "collision": false,
+            "steps": 614,
+            "dist_to_goal": 1.4416742167040124,
+            "progress": 0.9796114521750245,
+            "path_length_m": 73.05239999999999,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 12,
+            "success": true,
+            "collision": false,
+            "steps": 592,
+            "dist_to_goal": 1.486556865259299,
+            "progress": 0.9789767095847928,
+            "path_length_m": 70.48799999999981,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 13,
+            "success": true,
+            "collision": false,
+            "steps": 599,
+            "dist_to_goal": 1.41839185058065,
+            "progress": 0.9799407177120542,
+            "path_length_m": 71.27400000000013,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 14,
+            "success": true,
+            "collision": false,
+            "steps": 592,
+            "dist_to_goal": 1.4818195639737552,
+            "progress": 0.9790437057845601,
+            "path_length_m": 70.4124000000001,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 15,
+            "success": true,
+            "collision": false,
+            "steps": 596,
+            "dist_to_goal": 1.451564329539432,
+            "progress": 0.9794715835166252,
+            "path_length_m": 71.05440000000009,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 16,
+            "success": true,
+            "collision": false,
+            "steps": 752,
+            "dist_to_goal": 1.4530495807121764,
+            "progress": 0.9794505786916677,
+            "path_length_m": 78.1404000000002,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 17,
+            "success": true,
+            "collision": false,
+            "steps": 589,
+            "dist_to_goal": 1.424027018543641,
+            "progress": 0.9798610236381892,
+            "path_length_m": 70.17119999999994,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 18,
+            "success": false,
+            "collision": false,
+            "steps": 3000,
+            "dist_to_goal": 27.59998481128393,
+            "progress": 0.6096735283370961,
+            "path_length_m": 172.76844000000077,
+            "stuck": false,
+            "stuck_recoveries": 0
+          },
+          {
+            "seed": 19,
+            "success": false,
+            "collision": false,
+            "steps": 3000,
+            "dist_to_goal": 28.132127834783596,
+            "progress": 0.6021478173556272,
+            "path_length_m": 110.76240000000098,
+            "stuck": false,
+            "stuck_recoveries": 0
+          }
+        ]
+      }
+    }
+  },
+  "vo_drift": [
+    {
+      "clip": "driving_sample.mp4",
+      "degradation": "none",
+      "drift_m": null,
+      "mean_score": 0.4861710395017642,
+      "dead_reckoning_pct": 54.333333333333336
+    },
+    {
+      "clip": "driving_sample.mp4",
+      "degradation": "night",
+      "drift_m": 1.244,
+      "mean_score": 1.0,
+      "dead_reckoning_pct": 0.0
+    },
+    {
+      "clip": "driving_sample.mp4",
+      "degradation": "fog",
+      "drift_m": 0.912,
+      "mean_score": 0.476,
+      "dead_reckoning_pct": 54.7
+    },
+    {
+      "clip": "driving_sample.mp4",
+      "degradation": "glare",
+      "drift_m": 0.338,
+      "mean_score": 0.496,
+      "dead_reckoning_pct": 52.3
+    },
+    {
+      "clip": "vidssave.com RC Car POV Camera Test _ Offroad Adventure \ud83d\ude99\ud83d\udd25 #pov #monstertruck #shorts 720P.mp4",
+      "degradation": "none",
+      "drift_m": null,
+      "mean_score": 0.844004092230337,
+      "dead_reckoning_pct": 23.333333333333332
+    },
+    {
+      "clip": "vidssave.com RC Car POV Camera Test _ Offroad Adventure \ud83d\ude99\ud83d\udd25 #pov #monstertruck #shorts 720P.mp4",
+      "degradation": "night",
+      "drift_m": 1.642,
+      "mean_score": 0.715,
+      "dead_reckoning_pct": 65.7
+    },
+    {
+      "clip": "vidssave.com RC Car POV Camera Test _ Offroad Adventure \ud83d\ude99\ud83d\udd25 #pov #monstertruck #shorts 720P.mp4",
+      "degradation": "fog",
+      "drift_m": 0.385,
+      "mean_score": 0.781,
+      "dead_reckoning_pct": 43.3
+    },
+    {
+      "clip": "vidssave.com RC Car POV Camera Test _ Offroad Adventure \ud83d\ude99\ud83d\udd25 #pov #monstertruck #shorts 720P.mp4",
+      "degradation": "glare",
+      "drift_m": 1.366,
+      "mean_score": 0.819,
+      "dead_reckoning_pct": 33.3
+    }
+  ],
+  "observations": [
+    "[clear] DoubtNav WORSE: 90.0% vs Baseline 100.0% \u2014 excessive caution or speed-cap causes timeouts.",
+    "[night] DoubtNav WORSE: 65.0% vs Baseline 100.0% \u2014 excessive caution or speed-cap causes timeouts.",
+    "[night] DoubtNav has MORE collisions (1 vs 0) \u2014 possible DWA edge-case.",
+    "[fog] DoubtNav WORSE: 30.0% vs Baseline 95.0% \u2014 excessive caution or speed-cap causes timeouts.",
+    "[fog] DoubtNav has MORE collisions (8 vs 1) \u2014 possible DWA edge-case.",
+    "[sudden_obstacle] DoubtNav WORSE: 90.0% vs Baseline 95.0% \u2014 excessive caution or speed-cap causes timeouts.",
+    "[sudden_obstacle] DoubtNav avoids 1 more collision(s).",
+    "[sudden_obstacle] DoubtNav takes longer paths (+8.9m avg) due to detours around uncertain terrain."
+  ]
+}

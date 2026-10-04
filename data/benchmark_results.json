@@ -1,0 +1,12 @@
+{
+  "baseline": {
+    "success_rate": 100.0,
+    "avg_collisions": 0.0,
+    "avg_path_length": 72.63
+  },
+  "doubtnav": {
+    "success_rate": 90.0,
+    "avg_collisions": 0.0,
+    "avg_path_length": 78.75
+  }
+}
